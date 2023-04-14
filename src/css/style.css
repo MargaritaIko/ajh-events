@@ -1,0 +1,17 @@
+body {
+    color: #999;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(67, 64, 64);
+    margin: auto;    
+}
+
+.cell{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(182, 191, 97); 
+    margin: 1px;  
+    border: 1px black;    
+}
