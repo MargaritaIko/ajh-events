@@ -1,4 +1,4 @@
-import img from '../img/goblin.png';
+
 
 export default class goblinGame {
   constructor() {
@@ -8,11 +8,11 @@ export default class goblinGame {
   }
 
   goblinSetter() {
-    let position = Math.ceil((Math.random() * this.position ** 2) - 1);
+    const position = Math.floor(Math.random() * (this.boarSize ** 2 + 1));
     if (position === this.lastPosition) {
-      position = this.rand();
+      const position2 = this.goblinSetter();
+      return position2;
     }
-    this.lastPosition = position;
     return position;
   }
 
