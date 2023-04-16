@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/ygda20ftlbf5xocg?svg=true)](https://ci.appveyor.com/project/MargaritaIko/ahj-DOM)
+[![Build status](https://ci.appveyor.com/api/projects/status/s4w755a8irutfgbh/branch/main?svg=true)](https://ci.appveyor.com/project/MargaritaIko/ahj-dom/branch/main)(https://ci.appveyor.com/project/MargaritaIko/ahj-DOM)
