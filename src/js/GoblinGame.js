@@ -24,7 +24,7 @@ export default class GoblinGame {
     this.boarSize = countOfCells;
     this.field = document.createElement("div");
     this.field.classList.add("board");
-    const width = 122 * countOfCells;
+    const width = 124 * countOfCells;
     this.field.style.width = `${width}px`;
     document.body.appendChild(this.field);
     for (let i = 0; i < countOfCells ** 2; i += 1) {
@@ -52,11 +52,11 @@ export default class GoblinGame {
             </div>
           </div>`
         );
+        const clsModalBtn = document.querySelector(".close_btn");
+        clsModalBtn.addEventListener("click", (ev) =>
+          ev.target.closest("div.modal_mask").remove()
+        );
       }
-      const clsModalBtn = document.querySelector(".close_btn");
-      clsModalBtn.addEventListener("click", (ev) =>
-        ev.target.closest("div.modal_mask").remove()
-      );
       const position = this.goblinSetter();
       this.field.childNodes[position].appendChild(goblin);
       this.rounds += 1;
