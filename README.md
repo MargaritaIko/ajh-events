@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/pxd7983fqgxavts3/branch/main?svg=true)](https://ci.appveyor.com/project/MargaritaIko/ahj-events/branch/main)(https://ci.appveyor.com/project/MargaritaIko/ahj-events)
+[![Build status](https://ci.appveyor.com/api/projects/status/i4idu5h9apvkbxkj/branch/main?svg=true)](https://ci.appveyor.com/project/MargaritaIko/ajh-events/branch/main)
