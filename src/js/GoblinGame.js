@@ -24,7 +24,7 @@ export default class GoblinGame {
     this.boarSize = countOfCells;
     this.field = document.createElement("div");
     this.field.classList.add("board");
-    const width = 124 * countOfCells;
+    const width = 122 * countOfCells;
     this.field.style.width = `${width}px`;
     document.body.appendChild(this.field);
     for (let i = 0; i < countOfCells ** 2; i += 1) {
@@ -59,7 +59,6 @@ export default class GoblinGame {
       }
       const position = this.goblinSetter();
       this.field.childNodes[position].appendChild(goblin);
-      this.rounds += 1;
       this.gameResults.textContent = `Попадания: ${this.successShot} / Промахи: ${this.bossShot} / Число попыток: ${this.rounds}`;
     }, interval);
   }
