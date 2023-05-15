@@ -12,7 +12,7 @@ export default class GoblinGame {
   }
 
   goblinSetter() {
-    const position = Math.floor(Math.random() * (this.boarSize ** 2 + 1));
+    const position = Math.floor(Math.random() * (this.boarSize ** 2 - 1));
     if (position === this.lastPosition) {
       const position2 = this.goblinSetter();
       return position2;
